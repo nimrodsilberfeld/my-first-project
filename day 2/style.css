@@ -1,0 +1,69 @@
+form {color: red;}   
+ol {color: slateblue;}
+button{ background-color: springgreen;}
+#all {color: red;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+body {background-color:#ddd; }
+img {width: 10%;}
+#first{
+    height: 50px;
+    width: 40px;
+    background-color: #8e44ad;
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  
+  #second {
+    height: 50px;
+    width: 40px;
+    background-color:orange;
+    display: inline-block;
+    margin-left: 30px;
+    border: 10px salmon; 
+  }
+  
+ .box 
+  {height: 200px;
+   width: 200px;
+   background-color:blue;
+   margin-top:20px;
+   padding: 50px;
+   box-sizing: border-box;
+   position: relative;  
+  }
+  #strip {
+    background-color: red;
+    display: inline block;
+    height: 200px;
+    width: 10px;
+    position: absolute;
+    top: 0;
+    left: 50px; 
+
+  }
+#strip2 {
+  background-color: red;
+    display: inline block;
+    height: 10px;
+    width: 200px;
+    position: absolute;
+    top:10;
+    left:0;
+     
+
+}
+
+.graph {
+  display: inline-block;
+  background-color: cadetblue;
+  width: 400px;
+  height:300px;
+  border-radius: 5px;
+  position: relative;
+}
+
+#strip {
+  position: absolute;
+  display: inline block
+}
