@@ -42,7 +42,7 @@ employees.push(...candidates)
  heal.unshift("FXT")
  console.log(heal)
 */
-
+/*
 const p1 = {
     name: "jill",
     age: 20,
@@ -67,7 +67,7 @@ if (p1.age === p2.age) {
 
 
 
-const mylist = [p1, p2]
+/*const mylist = [p1, p2]
 mylist[0].age = "18"
 console.log(mylist[0].age)
 mylist.splice(1, 1)
@@ -109,3 +109,35 @@ const library = {
 
 mylist.push(...library.books)
 console.log(mylist)
+*/
+/*
+
+const reservations = {
+    Bob: { claimed: false },
+    Ted: { claimed: true }
+
+}
+  
+  const name = prompt('Please enter the name for your reservation');
+  name=name.toLowerCase
+  //console.log(name)
+if( reservations[name]){
+    if(reservations[name].claimed===false){
+         console.log("welcome"+ name)}
+         else (reservations[name].claimed===true) 
+             console.log("your reservation already claimed")
+         }
+    else {reservations[name]=claimed=true} 
+        console.log("waiting "+name)
+        
+       // console.log("you dotionnt have any reseva")} 
+
+  */
+ 
+ let gender = "male"
+let proffession = "business"
+
+if(gender==="male"){proffession="buisneeman"}
+else if (gender==="woman"){proffession="buiswoman"}
+else if(gender===null){proffession="bussinessperson"}
+console.log(proffession)
